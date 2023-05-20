@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<title>Kumo</title>
+<title>CWEB DEV 2201</title>
 
 <!-- Custom CSS -->
 <link href="{{ asset('frontend/css/plugins/animation.css') }}" rel="stylesheet">
@@ -41,7 +41,7 @@
 	s0.parentNode.insertBefore(s1,s0);
 	})();
 	</script>
-	<!--End of Tawk.to Script-->	
+	<!--End of Tawk.to Script-->
 
 
 
@@ -143,11 +143,11 @@
 <div class="py-2 br-bottom">
 	<div class="container">
 		<div class="row" style="align-items: center;">
-			
+
 			<div class="col-xl-7 col-lg-6 col-md-6 col-sm-12 hide-ipad">
 				<div class="top_second"><p class="medium text-muted m-0 p-0"><i class="lni lni-phone fs-sm"></i></i> Hotline <a href="#" class="medium text-dark text-underline">0(800) 123-456</a></p></div>
 			</div>
-			
+
 			<!-- Right Menu -->
 			<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 pt-2 pb-2" style="display: flex; flex-flow: row-reverse nowrap; align-items: center;">
 				<!-- Choose Language -->
@@ -162,12 +162,12 @@
 						<li><a href="javascript:void(0);" class="dropdown-item medium text-muted"><img src="assets/img/2.jpg" alt="fr" width="16" height="11" /><span>Français</span></a></li>
 					</ul>
 				</div>
-				
+
 				<div style="cursor: pointer;" class="currency-selector dropdown js-dropdown float-right mr-3">
 					@auth('customerlogin')
 						<div class="dropdown">
 							<a class="usr-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<div class="name">{{ Auth::guard('customerlogin')->user()->name }}</div> 
+								<div class="name">{{ Auth::guard('customerlogin')->user()->name }}</div>
 								@if(Auth::guard('customerlogin')->user()->profile_image != null && Auth::guard('customerlogin')->user()->profile_image != '' && Auth::guard('customerlogin')->user()->profile_image != 'undefined')
 									<img src="{{ asset('uploads/customer') }}/{{ Auth::guard('customerlogin')->user()->profile_image }}" alt="">
 								@else
@@ -184,7 +184,7 @@
 					@endauth
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </div>
@@ -231,7 +231,7 @@
 									</div>
 								</a>
 							</li>
-						</ul>	
+						</ul>
 					</div>
 					<div class="mobile_nav">
 						<ul>
@@ -297,7 +297,7 @@
 <section class="px-0 py-3 br-top">
 	<div class="container">
 		<div class="row">
-			
+
 			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 				<div class="d-flex align-items-center justify-content-start py-2">
 					<div class="d_ico">
@@ -309,7 +309,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 				<div class="d-flex align-items-center justify-content-start py-2">
 					<div class="d_ico">
@@ -321,7 +321,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 				<div class="d-flex align-items-center justify-content-start py-2">
 					<div class="d_ico">
@@ -333,7 +333,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 				<div class="d-flex align-items-center justify-content-start py-2">
 					<div class="d_ico">
@@ -345,7 +345,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </section>
@@ -356,13 +356,13 @@
 	<div class="footer-middle">
 		<div class="container">
 			<div class="row">
-				
+
 				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
 					<div class="footer_widget">
 						<img src="assets/img/logo-light.png" class="img-footer small mb-2" alt="" />
-						
+
 						<div class="address mt-3">
-							3298 Grant Street Longview, TX<br>United Kingdom 75601	
+							3298 Grant Street Longview, TX<br>United Kingdom 75601
 						</div>
 						<div class="address mt-3">
 							1-202-555-0106<br>help@shopper.com
@@ -378,7 +378,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
 					<div class="footer_widget">
 						<h4 class="widget_title">Supports</h4>
@@ -391,7 +391,7 @@
 						</ul>
 					</div>
 				</div>
-						
+
 				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
 					<div class="footer_widget">
 						<h4 class="widget_title">Shop</h4>
@@ -404,7 +404,7 @@
 						</ul>
 					</div>
 				</div>
-		
+
 				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
 					<div class="footer_widget">
 						<h4 class="widget_title">Company</h4>
@@ -416,7 +416,7 @@
 						</ul>
 					</div>
 				</div>
-				
+
 				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
 					<div class="footer_widget">
 						<h4 class="widget_title">Subscribe</h4>
@@ -435,11 +435,11 @@
 						</div>
 					</div>
 				</div>
-					
+
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="row align-items-center">
@@ -460,10 +460,10 @@
 			<button onclick="closeWishlist()" class="close_slide"><i class="ti-close"></i></button>
 		</div>
 		<div class="right-ch-sideBar">
-			
+
 			<div class="cart_select_items py-2">
-				
-				
+
+
 				@foreach (App\Models\WishList::where('customer_id', Auth::guard('customerlogin')->id())->get() as $itm)
 					<!-- Single Item -->
 					<div class="d-flex align-items-center justify-content-between br-bottom px-3 py-3">
@@ -480,16 +480,16 @@
 						<div class="fls_last"><a href="{{ route('wishitm.remove', $itm->id) }}" class="close_slide gray"><i class="ti-close"></i></a></div>
 					</div>
 				@endforeach
-				
-				
+
+
 			</div>
-			
+
 			<div class="cart_action px-3 py-3">
 				<div class="form-group">
 					<a href="{{ route('customer.wishlist') }}" type="button" class="btn d-block full-width btn-dark-light">View Whishlist</a>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </div>
@@ -502,9 +502,9 @@
 			<button onclick="closeCart()" class="close_slide"><i class="ti-close"></i></button>
 		</div>
 		<div class="right-ch-sideBar">
-			
+
 			<div class="cart_select_items py-2">
-				
+
 				@php
 					$sub_total = 0;
 				@endphp
@@ -530,22 +530,22 @@
 					@else
 						<div class="d-flex align-content-center justify-content-center w-100">it was removed</div>
 					@endif
-				
+
 				@endforeach
-				
+
 			</div>
-			
+
 			<div class="d-flex align-items-center justify-content-between br-top br-bottom px-3 py-3">
 				<h6 class="mb-0">Subtotal</h6>
 				<h3 class="mb-0 ft-medium">&#2547;{{ $sub_total }}</h3>
 			</div>
-			
+
 			<div class="cart_action px-3 py-3">
 				<div class="form-group">
 					<a href="{{ route('cart.page') }}" type="button" class="btn d-block full-width btn-dark-light">View Cart</a>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </div>
@@ -567,16 +567,16 @@
 <script src="{{ asset('frontend/js/ion.rangeSlider.min.js') }}"></script>
 <script src="{{ asset('frontend/js/slick.js') }}"></script>
 <script src="{{ asset('frontend/js/slider-bg.js') }}"></script>
-<script src="{{ asset('frontend/js/lightbox.js') }}"></script> 
+<script src="{{ asset('frontend/js/lightbox.js') }}"></script>
 <script src="{{ asset('frontend/js/smoothproducts.js') }}"></script>
 <script src="{{ asset('frontend/js/snackbar.min.js') }}"></script>
 <script src="{{ asset('frontend/js/jQuery.style.switcher.js') }}"></script>
 <script src="{{ asset('frontend/js/custom.js') }}"></script>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>	
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <!-- ============================================================== -->
 <!-- This page plugins -->
-<!-- ============================================================== -->	
+<!-- ============================================================== -->
 
 {{-- =============================== footer script start =========================================== --}}
 
@@ -609,7 +609,7 @@ function openSearch() {
 function closeSearch() {
 	document.getElementById("Search").style.display = "none";
 }
-</script>	
+</script>
 
 
 
